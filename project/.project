@@ -8,4 +8,21 @@
 	</buildSpec>
 	<natures>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>README.md</name>
+			<type>1</type>
+			<locationURI>WORKSPACE_LOC/README.md</locationURI>
+		</link>
+		<link>
+			<name>global.gitignore</name>
+			<type>1</type>
+			<locationURI>WORKSPACE_LOC/.gitignore</locationURI>
+		</link>
+		<link>
+			<name>travis.yml</name>
+			<type>1</type>
+			<locationURI>WORKSPACE_LOC/.travis.yml</locationURI>
+		</link>
+	</linkedResources>
 </projectDescription>
