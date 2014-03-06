@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>project</name>
+	<name>project-root</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -23,6 +23,16 @@
 			<name>travis.yml</name>
 			<type>1</type>
 			<locationURI>WORKSPACE_LOC/.travis.yml</locationURI>
+		</link>
+		<link>
+			<name>Build.scala</name>
+			<type>1</type>
+			<locationURI>WORKSPACE_LOC/project/Build.scala</locationURI>
+		</link>
+		<link>
+			<name>plugins.sbt</name>
+			<type>1</type>
+			<locationURI>WORKSPACE_LOC/project/plugins.sbt</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>
