@@ -1,0 +1,1 @@
+libraryDependencies += "net.codingwell" %% "scala-guice" % "4.0.0-beta"

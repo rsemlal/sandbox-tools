@@ -24,6 +24,8 @@ seq(assemblySettings: _*)
 
 mergeStrategy in assembly <<= (mergeStrategy in assembly) { (old) =>
   {
+  	case "META-INF/maven/com.google.guava/guava/pom.properties" => MergeStrategy.discard
+  	case "META-INF/maven/com.google.guava/guava/pom.xml" => MergeStrategy.discard
     case "META-INF/spring.tooling" => MergeStrategy.concat
     case x => old(x)
   }
